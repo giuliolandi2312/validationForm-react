@@ -87,7 +87,7 @@ export default function Form() {
     const [city, setCity] = useState('')
     const [cityError, setCityError ] = useState(false)
     const [helpertextCity, setHelperTextCity] = useState(false)
-
+    console.log('prova')
 
     const handleSubmit = (e) => {
       e.preventDefault()
